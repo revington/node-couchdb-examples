@@ -1,0 +1,5 @@
+#!/bin/sh
+export EXAMPLE=http://localhost:3000/
+
+
+curl -H "Content-Type: application/json" -X PUT -d "{\"name\":\"$1\"}" "${EXAMPLE}worker" 

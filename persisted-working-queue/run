@@ -1,0 +1,8 @@
+#!/bin/sh
+export DEBUG='worker'
+export COUCH_DB=http://localhost:5984/couch-socket-io-test-1234
+export PORT=3000
+# Create db if it does not exist
+curl -X PUT ${COUCH_DB}
+
+nodemon app.js

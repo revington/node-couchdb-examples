@@ -1,0 +1,17 @@
+{
+  "name": "persiste-working-queue",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "~2.1.1",
+    "express": "~4.11.2",
+    "nano": "~6.0.2",
+    "body-parser": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Narciso García Revington"
+}
